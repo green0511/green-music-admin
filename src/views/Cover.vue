@@ -1,7 +1,7 @@
 <template>
   <div class="cover">
-    <el-upload :action="uploadAddr" :headers="headers" :on-success="handleAvatarSuccess" 
-              :on-preview="handlePreview" :file-list="fileList" :before-upload="beforeAvatarUpload" 
+    <el-upload :action="uploadAddr" :headers="headers" :on-success="handleCoverSuccess" 
+              :on-preview="handlePreview" :file-list="fileList" :before-upload="beforeCoverUpload" 
               name="covers" list-type="picture-card">
     <i class="el-icon-plus"></i>
     <div slot="tip" class="el-upload__tip">单张图片不超过1MB</div>
